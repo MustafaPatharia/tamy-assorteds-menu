@@ -1,0 +1,70 @@
+.page {
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(155, 197, 244, 0.08), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(120, 168, 226, 0.12), transparent 40%),
+    #050d15;
+  color: #e2ecff;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 1.25rem 4rem;
+}
+
+.cocoaHalo {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 20%, rgba(104, 156, 209, 0.35), transparent 55%);
+  filter: blur(80px);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.menuSection {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+
+.menuIntro {
+  text-align: center;
+  max-width: 660px;
+  margin: 0 auto 3rem;
+}
+
+.overline {
+  font-size: 0.95rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #8cb8e5;
+  margin-bottom: 1rem;
+}
+
+.menuIntro h2 {
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  margin: 0.5rem 0 1rem;
+  color: #f4f8ff;
+}
+
+.copy {
+  font-size: 1.05rem;
+  color: #bfd6f8;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 0 1rem 3rem;
+  }
+
+  .menuIntro {
+    text-align: left;
+  }
+}

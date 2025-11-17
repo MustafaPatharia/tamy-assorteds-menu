@@ -1,0 +1,43 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  padding: 2.5rem 0 3rem;
+  border-top: 1px solid rgba(129, 171, 214, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: #bcd3f3;
+  font-size: 0.95rem;
+}
+
+.brand {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.35rem;
+  color: #dbe8ff;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  color: #9ac4f0;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+}

@@ -1,0 +1,13 @@
+<svg width="320" height="140" viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9bc5f4"/>
+      <stop offset="100%" stop-color="#6fa0d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="140" rx="28" fill="#07111b"/>
+  <text x="32" y="78" fill="url(#brand)" font-family="'Cinzel', serif" font-size="64">Tamy</text>
+  <text x="36" y="112" fill="#b5d6ff" font-family="'Inter', sans-serif" font-size="26" letter-spacing="5">ASSORTEDS</text>
+  <path d="M210 40 C250 20 280 80 300 50" stroke="url(#brand)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="300" cy="50" r="6" fill="#b5d6ff"/>
+</svg>

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Dark Belgian Truffle",
+    "description": "Rich handcrafted dark chocolate filled with smooth Belgian ganache.",
+    "image": "/images/dark_truffle.svg",
+    "price": "₹150",
+    "tag": "Bestseller"
+  },
+  {
+    "id": 2,
+    "title": "Almond Crunch Bar",
+    "description": "Roasted almond chunks blended into silky milk chocolate.",
+    "image": "/images/almond_crunch.svg",
+    "price": "₹120",
+    "tag": "New"
+  },
+  {
+    "id": 3,
+    "title": "Hazelnut Praline Bite",
+    "description": "Italian hazelnuts crushed into a soft praline center.",
+    "image": "/images/hazelnut_praline.svg",
+    "price": "₹180"
+  },
+  {
+    "id": 4,
+    "title": "Rose Pistachio Jewel",
+    "description": "Delicate rose ganache with toasted pistachio dust.",
+    "image": "/images/rose_pistachio.svg",
+    "price": "₹160",
+    "tag": "Limited Edition"
+  },
+  {
+    "id": 5,
+    "title": "Sea Salt Caramel Cloud",
+    "description": "Slow cooked caramel embraced by dark couverture and fleur de sel.",
+    "image": "/images/sea_salt_caramel.svg",
+    "price": "₹170"
+  },
+  {
+    "id": 6,
+    "title": "Orange Zest Noir",
+    "description": "Candied orange ribbons infused into velvety 70% cacao.",
+    "image": "/images/orange_zest.svg",
+    "price": "₹155"
+  }
+]

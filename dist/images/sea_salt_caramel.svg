@@ -1,0 +1,11 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111a"/>
+      <stop offset="100%" stop-color="#13273a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad)" rx="24"/>
+  <text x="50%" y="48%" text-anchor="middle" fill="#b8d8ff" font-family="'Cinzel', serif" font-size="42">Sea Salt</text>
+  <text x="50%" y="65%" text-anchor="middle" fill="#90c1f0" font-family="'Inter', sans-serif" font-size="30">Caramel Cloud</text>
+</svg>
